@@ -1,0 +1,61 @@
+canonical_identifier: bkk:krp/KR4b0084/v1
+canonical_location: https://kanripo.org/bkk/KR4b0084/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 盧思道集二卷
+  identifiers:
+    krp: KR4b0084
+  tags:
+    kr-categories: KR4b
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4b0084.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4b0084_001.yaml, hash: 'sha256:aa7ab0926c784e6350341371c97675949e53519606f3d3b4ca5ac71d58c4dedd'}
+  - {seq: 2, filename: KR4b0084_002.yaml, hash: 'sha256:f438f29e45d2ff75063db1c1ea6903ddf3bd6406e79f012cbe098fe89b286527'}
+  - {seq: 3, filename: KR4b0084_003.yaml, hash: 'sha256:cc03658c3b97d641779c5b2c8b299fa8278aee4447c225f4e5ec8a4b2ff363a0'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4b0084_001.markers.yaml, hash: 'sha256:63f3ce1f31b4d7b95c9f100c28da326e8da826ce9fd89a171285a47e7007b335'}
+  - {seq: 2, role: markers, filename: assets/KR4b0084_002.markers.yaml, hash: 'sha256:6af00f734e9b081f1271ae9818576bb115a4c647e8c3f164e297137430aaca6e'}
+  - {seq: 3, role: markers, filename: assets/KR4b0084_003.markers.yaml, hash: 'sha256:087e2e6cec9578545321e87d399fb7e86dcd31c43c2556af2fd3b7923039de30'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4b0084_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 3012
+  label: 樂府
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4b0084_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 9361
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4b0084_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 57
+  label: 附錄
+  type: section
+  level: 1
+hash: sha256:dca96168c142ad56b4f00b8df369c2f1aa7a013e2f5722a36c0fd6825e61fdb2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

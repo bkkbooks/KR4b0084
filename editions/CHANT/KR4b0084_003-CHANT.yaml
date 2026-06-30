@@ -1,0 +1,18 @@
+canonical_identifier: bkk:krp/KR4b0084/chant/v1/juan/3
+seq: 3
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: 附錄之贈李行之水衡稱逸人潘楊有世親形骸預冠蓋心思出風雲北齊書李瑾傳詩聯句作詩共甑分炊水同鐺各煮魚太平廣記二百四十七
+  hash: sha256:294799abea62cd6c7fe724b018e48dc9145c7ebf4a314142f8b373b21a35c02b
+  markers:
+  - {type: 'tls:head', offset: 0, content: '', id: KR4b0084_CHANT_003-1a.1-h}
+metadata:
+  title: 盧思道集二卷
+  edition:
+    short: chant
+  source:
+    repository: tls-texts
+    path: data/tls/KR4b0084.xml
+hash: sha256:2cebb4c378240d47caca877f387741c77a7f7a74a1aeed03f904a0eeab8f81b7
